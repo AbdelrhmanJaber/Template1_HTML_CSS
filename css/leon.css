@@ -232,18 +232,14 @@
 }
 
 .features .container {
-   display: flex;
-   justify-content: space-between;
-   align-content: space-between;
-   flex-wrap: nowrap;
-   width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px , 1fr));
+  grid-gap: 20px;
 }
 
 .features .feet {
-    padding: 15px;
+    padding: 20px;
     text-align: center;
-    min-width: 220px;
-    max-width: 370px
 }
 
 
